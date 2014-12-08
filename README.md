@@ -49,7 +49,7 @@ $image = array(
 
 ### Customizing Paths and Extensions
 
-By default the plugin will only grab `.jpg` images from **content/images** folder. This can be changed in the Pico `config.php` file.
+By default the plugin will only grab `.jpg` images from `content/images` folder. This can be changed in the Pico `config.php` file.
 
 ```php
 $config['slider_path'] = 'content/images/slider'; // the path to the folder you want to use for loading the images
