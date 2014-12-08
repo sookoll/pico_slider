@@ -1,7 +1,8 @@
 pico_slider
 ===========
 
-Create sliders(image lists) inside the [Pico CMS](http://pico.dev7studios.com/).
+Create sliders(image lists) inside the [Pico CMS](http://pico.dev7studios.com/).  
+This is fork from [https://github.com/james2doyle/pico_slider](https://github.com/james2doyle/pico_slider). I added ability to set configuration in Pico `config.php` file.
 
 ### Use Cases
 

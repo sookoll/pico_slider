@@ -58,7 +58,7 @@ class Pico_Slider {
 	public function before_render(&$twig_vars, &$twig)
 	{
 		// assign the images to the twig_vars
-		$twig_vars['images'] = $this->get_files($this->settings['slider_path'], $this->image_ext);
+		$twig_vars['images'] = $this->get_files($this->image_path, $this->image_ext);
 		foreach ($twig_vars['images'] as &$image) {
 			$temp_array = array();
 			// lazy link to the image
